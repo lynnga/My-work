@@ -1,25 +1,28 @@
 body {
     background-color: black
-  }
+}
+
 h1 {
-    color :blueviolet;
+    color: blueviolet;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
+
 }
+
 .glow {
     font-size: 80px;
     color: pink;
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate;
 }
+
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
     }
-    
+
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 }
 
@@ -33,7 +36,7 @@ h1 {
     background-color: black;
     overflow-x: hidden;
     padding-top: 20px;
-    
+
 }
 
 .sidenav a {
@@ -44,10 +47,53 @@ h1 {
     display: flex;
 }
 
+#AboutMeSection img {
+    border: solid 10px pink;
+    height: 170px;
+    width: 170px;
+}
+
 section {
     color: pink;
     text-align: center;
     overflow: visible;
+    padding-top: 100 px;
+    margin: 50px auto;
 }
-.website
-{}
+
+.Portfolio p {
+    margin: 0 auto;
+    width: 400px;
+
+}
+
+.website a {
+    
+    flex-basis: calc(50% - 1em);
+}
+
+.thumbnail {
+    align-items: center;
+    max-width: 250px;
+    max-height: 168px;
+}
+
+
+.thumbnail:hover {
+    transform: scale(1.2);
+
+}
+.special {
+   height: 100px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+   margin-bottom: 10px;
+}
+.special:hover {
+    transform: scale(1.2);
+}
+.contactinfo {
+    padding: 100 0 100 0;
+}
