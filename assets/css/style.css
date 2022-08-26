@@ -75,7 +75,7 @@ section {
 .thumbnail {
     align-items: center;
     max-width: 250px;
-    max-height: 168px;
+    max-height: 400px;
 }
 
 
@@ -83,17 +83,44 @@ section {
     transform: scale(1.2);
 
 }
-.special {
+/* .special {
    height: 100px;
    display: block;
    margin-left: auto;
    margin-right: auto;
    width: 20%;
    margin-bottom: 10px;
-}
+} */
 .special:hover {
     transform: scale(1.2);
 }
 .contactinfo {
     padding: 100 0 100 0;
+}
+
+
+   
+.img {
+     
+    background-image: url('https://th.bing.com/th/id/R.397932589464129e5c778d5ca028f740?rik=Cx6Qfs%2f51elEnw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f4%2fd%2f0%2f894485-pretty-summer-backgrounds-1920x1080-download-free.jpg&ehk=VSPDPmL8c7Mauj6ZK0ojNgTOiIRzRZHjrIduzKN54eA%3d&risl=&pid=ImgRaw&r=0');      height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+  }
+  
+
+ .cardcontainer{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+ }
+.card {
+    width: 400px;
+    
+
+
 }
